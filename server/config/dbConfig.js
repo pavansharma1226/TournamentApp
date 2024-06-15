@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/QuizApp");
+mongoose.connect("mongodb+srv://pavansharma1226:TnBcuX2CBhh8jZn@cluster0.mzsqod3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const connection = mongoose.connection;
 
